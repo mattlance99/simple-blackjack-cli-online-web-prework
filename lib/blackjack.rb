@@ -11,7 +11,6 @@ end
 def display_card_total(card_total)
   # code #display_card_total here
   puts "Your cards add up to #{card_total}"
-  
 end
 
 def prompt_user
@@ -51,6 +50,7 @@ def hit?(current_card_total)
   else 
     invalid_command
     prompt_user
+    users_input = get_user_input
   end
   current_card_total
 end
