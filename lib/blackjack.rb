@@ -64,7 +64,7 @@ end
 #####################################################
 
 def runner
-  unti card_total > 21 
+  until card_total > 21 
     welcome
     initial_round
     hit?
