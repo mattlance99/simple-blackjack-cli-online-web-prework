@@ -1,10 +1,11 @@
 require_relative "blackjack.rb"
-current_card_total = 0 
+card_total = 0 
 runner
-  until current_card_total > 21 
+  until card_total > 21 
     welcome
     initial_round
     hit?
-    display_card_totals
+    current_card_total = display_card_totals
+    card_total = current_card_total + card_total
   end
 end
