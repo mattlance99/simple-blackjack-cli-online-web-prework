@@ -8,4 +8,5 @@ runner
     current_card_total = display_card_totals
     card_total = current_card_total + card_total
   end
+  end_game
 end
