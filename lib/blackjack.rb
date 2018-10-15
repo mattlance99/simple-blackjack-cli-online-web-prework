@@ -47,6 +47,7 @@ def hit?(current_card_total)
     hit_card = deal_card
     current_card_total = current_card_total + hit_card
   elsif users_input == "s"
+    puts "You are sticking with #{current_card_total}"
   else 
     invalid_command
     prompt_user
@@ -69,7 +70,6 @@ def runner
     welcome
     initial_round
     hit?
-     puts "did u get here again"
     display_card_total
   end
 end_game
