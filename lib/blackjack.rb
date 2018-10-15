@@ -69,7 +69,7 @@ def runner
     welcome
     initial_round
     hit?
-     puts "did u get here"
+     puts "did u get here again"
     display_card_total
   end
 end_game
