@@ -68,8 +68,8 @@ def runner
   until card_total > 21 
     welcome
     initial_round
-    puts "did u get here"
     hit?
+     puts "did u get here"
     display_card_total
   end
 end_game
