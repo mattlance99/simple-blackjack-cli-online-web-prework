@@ -3,6 +3,7 @@ card_total = 0
 runner
   until card_total > 21 
     welcome
+    puts "hello"
     initial_round
     hit?
     current_card_total = display_card_totals
